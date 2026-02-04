@@ -121,3 +121,11 @@ keymap.set("n", '<leader>df', '<cmd>Telescope dap frames<cr>')
 keymap.set("n", '<leader>dh', '<cmd>Telescope dap commands<cr>')
 keymap.set("n", '<leader>de', function() require('telescope.builtin').diagnostics({default_text=":E:"}) end)
 
+--buffer
+keymap.set("n",'<leader>bn',':bn<CR>')
+keymap.set("n",'<leader>bp',':bp<CR>')
+
+--terminal
+keymap.set("n",'<leader>tt',':term<CR>i')
+keymap.set("t",'<C-space>','<C-\\><C-n>')
+keymap.set("t",'<C-q>','exit<CR>')
