@@ -129,3 +129,6 @@ keymap.set("n",'<leader>bp',':bp<CR>')
 keymap.set("n",'<leader>tt',':term<CR>i')
 keymap.set("t",'<C-space>','<C-\\><C-n>')
 keymap.set("t",'<C-q>','exit<CR>')
+
+keymap.set("n","j","jzz")
+keymap.set("n","k","kzz")
